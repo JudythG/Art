@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  color: #f5eedc;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DD4A48;
+  /* background-color:rgba(228,0,43,1.0); */
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  /* padding: 1em; */
+  z-index: 1;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  color: #f5eedc;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.topnav-right {
+  float: right;
+  align-items: center;
+}
+
+.content {
+  padding: 16px;
+  font-size: 24px;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+.main_content {
+  font-size: 20px;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+.center_img {
+  margin: auto;
+  display: block;
+}
+
+button {
+  background-color: #C0D8C0;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+input {
+  background-color: #F5EEDC;
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.card-body {
+  font-family: "MetSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
